@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Support Youtuber</title>
+  </head>
+  <body>
+    <button id="hamburger" class="hamburger" onclick="handleNav()"></button>
+    <nav id="main-nav" class="main-nav">
+      <a href="#" onclick="handleNav()">Home</a>
+      <a href="#" onclick="handleNav()">About</a>
+      <a href="#" onclick="handleNav()">Creator</a>
+      <a href="#" onclick="handleNav()">Support</a>
+    </nav>
+    <main class="home">
+      <section class="home__info">
+        <header class="home__header">
+          <h1 class="home__title">Youtube Creators</h1>
+          <span class="home__spacer"></span>
+          <p class="home__subtext">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+            culpa, ab saepe facere aspernatur ducimus vel ut minus enim hic
+            mollitia nostrum explicabo accusantium suscipit?
+          </p>
+          <a href="#" class="home__cta">Support a Creator</a>
+        </header>
+      </section>
+      <section class="home__cards">
+        <div class="group-one">
+          <div class="home__card home__card--square">
+            <header>
+              <img src="./images/one.jpg" alt="Image" />
+              <h3><a href="#"> Marvellous Joseph</a></h3>
+            </header>
+          </div>
+
+          <div class="home__card home__card--large">
+            <header>
+              <img src="./images/two.jpg" alt="Image" />
+              <h3><a href="#"> Tech Me Out</a></h3>
+            </header>
+          </div>
+        </div>
+        <div class="group-two">
+          <div class="home__card home__card--large">
+            <header>
+              <img src="./images/three.jpg" alt="Image" />
+              <h3><a href="#"> Justine Marvin</a></h3>
+            </header>
+          </div>
+          <div class="home__card home__card--square">
+            <header>
+              <img src="./images/four.jpg" alt="Image" />
+              <h3><a href="#"> Elizabeth Patricia</a></h3>
+            </header>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="text/javascript" src="./functions.js"></script>
+  </body>
+</html>
